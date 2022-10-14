@@ -346,7 +346,7 @@ class VideoLiveStreamingController(
                 return super.onScale(detector)
             }
 
-            override fun onScaleBegin(detector: ScaleGestureDetector?): Boolean {
+            override fun onScaleBegin(detector: ScaleGestureDetector): Boolean {
                 localVideoView?.scaleX = scaleFactor
                 localVideoView?.scaleY = scaleFactor
                 return super.onScaleBegin(detector)
@@ -564,7 +564,7 @@ class VideoLiveStreamingController(
     }
 
     inner class SingleTapConfirm : SimpleOnGestureListener() {
-        override fun onSingleTapConfirmed(e: MotionEvent?): Boolean {
+        override fun onSingleTapConfirmed(e: MotionEvent): Boolean {
             if (!isControllerShowing) {
                 isControllerShowing = true
                 liveController?.visibility = View.VISIBLE
