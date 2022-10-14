@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/live_streaming.iml" filepath="$PROJECT_DIR$/.idea/modules/live_streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/live_streaming.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/live_streaming.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/live_streaming.main.iml" filepath="$PROJECT_DIR$/.idea/modules/live_streaming.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/live_streaming.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/live_streaming.unitTest.iml" />
+    </modules>
+  </component>
+</project>
